@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sidi Weiss – Promovierter Statistiker mit 15 Jahren Erfahrung in Statistik, Datenanalyse, Data Science & Data Engineering.">
+<meta name="keywords" content="Statistik, Datenanalyse, Data Engineering, Data Science, Machine Learning, Deutschland, Schweiz, KPI, Dashboard, Reporting">
+<title>Sidi Weiss – Statistik, Datenanalyse & Data Science</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+.fade-up { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+.fade-down { opacity: 0; transform: translateY(-20px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+.visible { opacity: 1; transform: translateY(0); }
+[data-delay] { transition-delay: var(--delay, 0s); }
+.card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.card-hover:hover { transform: translateY(-8px) scale(1.03); box-shadow: 0 12px 24px rgba(0,0,0,0.15); }
+button:hover { transform: scale(1.05); transition: transform 0.2s ease; }
+</style>
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+<!-- Header -->
+<header class="bg-white shadow-md p-6 flex justify-between items-center sticky top-0 z-50">
+<h1 class="text-2xl font-bold text-blue-700">Sidi Weiss</h1>
+<nav class="space-x-6">
+<a href="#about" class="hover:text-blue-700">Über mich</a>
+<a href="#leistungen" class="hover:text-blue-700">Leistungen</a>
+<a href="#branchen" class="hover:text-blue-700">Branchen</a>
+<a href="#kontakt" class="hover:text-blue-700">Kontakt</a>
+<a href="#impressum" class="hover:text-blue-700">Impressum</a>
+<a href="#datenschutz" class="hover:text-blue-700">Datenschutz</a>
+</nav>
+</header>
+
+<!-- Hero -->
+<section class="relative text-center py-20 overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-50 to-blue-100 z-0"></div>
+<div class="relative z-10">
+<h2 class="text-4xl font-bold mb-4 fade-down" data-delay="0s">Statistik · Datenanalyse · Data Science · Data Engineering</h2>
+<p class="text-lg max-w-2xl mx-auto fade-down" data-delay="0.2s">Promovierter Statistiker mit 15 Jahren Erfahrung. Ich unterstütze Unternehmen, Daten in wertvolles Wissen zu verwandeln.</p>
+</div>
+</section>
+
+<!-- Über mich -->
+<section id="about" class="py-12 px-6 max-w-5xl mx-auto">
+<h3 class="text-3xl font-semibold mb-6 text-center fade-up" data-delay="0s">Über mich</h3>
+<p class="text-lg leading-relaxed text-center fade-up" data-delay="0.15s">Mein Name ist <strong>Sidi Weiss</strong>. Ich bin promovierter Statistiker und Mathematiker mit über 15 Jahren Erfahrung in Statistik, Datenanalyse, Data Science und Data Engineering. In meiner Karriere habe ich zahlreiche Projekte in verschiedenen Branchen begleitet und Unternehmen geholfen, datengetriebene Entscheidungen zu treffen.</p>
+</section>
+
+<!-- Leistungen -->
+<section id="leistungen" class="py-12 px-6 max-w-6xl mx-auto">
+<h3 class="text-3xl font-semibold mb-6 text-center fade-up" data-delay="0s">Leistungen</h3>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white p-6 rounded-2xl shadow fade-up card-hover" data-delay="0s">
+<h4 class="font-bold mb-2">Statistik & Datenanalyse</h4>
+<p>Daten aufbereiten, analysieren und fundierte Entscheidungen treffen.</p>
+</div>
+<div class="bg-white p-6 rounded-2xl shadow fade-up card-hover" data-delay="0.15s">
+<h4 class="font-bold mb-2">Machine Learning</h4>
+<p>Vorhersagemodelle, Klassifikation, Clustering und KI-Lösungen.</p>
+</div>
+<div class="bg-white p-6 rounded-2xl shadow fade-up card-hover" data-delay="0.3s">
+<h4 class="font-bold mb-2">Datenvisualisierung</h4>
+<p>Klar strukturierte Dashboards, KPI-Reports und interaktive Visualisierungen.</p>
+</div>
+<div class="bg-white p-6 rounded-2xl shadow fade-up card-hover" data-delay="0.45s">
+<h4 class="font-bold mb-2">Datenverarbeitung</h4>
+<p>ETL-Prozesse, Datenbereinigung und Big-Data-Pipelines.</p>
+</div>
+<div class="bg-white p-6 rounded-2xl shadow fade-up card-hover" data-delay="0.6s">
+<h4 class="font-bold mb-2">Reporting & KPI</h4>
+<p>Management-Reports, automatisierte Kennzahlen und Business Intelligence.</p>
+</div>
+<div class="bg-white p-6 rounded-2xl shadow fade-up card-hover" data-delay="0.75s">
+<h4 class="font-bold mb-2">Deployment</h4>
+<p>Modelle & Dashboards produktiv einsetzen – lokal & in der Cloud.</p>
+</div>
+</div>
+</section>
+
+<!-- Branchen -->
+<section id="branchen" class="bg-gray-100 py-12 px-6">
+<h3 class="text-3xl font-semibold mb-6 text-center fade-up" data-delay="0s">Branchen</h3>
+<div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto text-center">
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0s">Automotive</span>
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0.1s">Versicherung</span>
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0.2s">Bau</span>
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0.3s">Ernährung</span>
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0.4s">Lebensmittel</span>
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0.5s">Marketing</span>
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0.6s">Finanz</span>
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0.7s">Banken</span>
+<span class="bg-white shadow px-4 py-2 rounded-xl fade-up card-hover" data-delay="0.8s">Transport</span>
+</div>
+</section>
+
+<!-- Kontaktformular -->
+<section id="kontakt" class="bg-blue-50 py-12 px-6">
+<h3 class="text-3xl font-semibold mb-6 text-center fade-up" data-delay="0s">Kontakt</h3>
+<form id="contactForm" action="https://formspree.io/f/<DEINE_FORM_ID>" method="POST" class="max-w-xl mx-auto bg-white shadow rounded-2xl p-6">
+<input type="hidden" name="_next" value="danke.html">
+<input type="text" name="_gotcha" style="display:none">
+<div class="mb-4">
+<label class="block mb-2 font-medium">Name</label>
+<input type="text" name="name" class="w-full border rounded-lg p-2" required>
+</div>
+<div class="mb-4">
+<label class="block mb-2 font-medium">E-Mail</label>
+<input type="email" name="email" class="w-full border rounded-lg p-2" required>
+</div>
+<div class="mb-4">
+<label class="block mb-2 font-medium">Nachricht</label>
+<textarea name="message" rows="4" class="w-full border rounded-lg p-2" required></textarea>
+</div>
+<div class="mb-4">
+<label class="inline-flex items-center">
+<input type="checkbox" name="consent" required class="form-checkbox mr-2">
+<span class="text-sm">Ich stimme zu, dass meine Daten zur Bearbeitung meiner Anfrage gespeichert und an Formspree übermittelt werden. Weitere Informationen in der <a href="#datenschutz" class="text-blue-700 underline">Datenschutzerklärung</a>.</span>
+</label>
+</div>
+<button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition">Senden</button>
+</form>
+</section>
+<script>
+const form = document.getElementById('contactForm');
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  const data = new FormData(form);
+  fetch(form.action, { method: form.method, body: data, headers: { 'Accept': 'application/json' }})
+  .then(resp => { if(resp.ok) { window.location.href="danke.html"; } else { alert('Fehler beim Senden'); }})
+  .catch(()=>alert('Fehler beim Senden'));
+});
+</script>
+
+</body>
+</html>
